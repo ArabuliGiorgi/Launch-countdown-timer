@@ -6,3 +6,155 @@
 h1{
     font-family: "Red Hat Text", sans-serif;
 }
+body{
+    min-height: 100vh;
+    background: linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%);
+}
+main{
+    background-image: url(images/pattern-hills.svg), url(images/bg-stars.svg);
+    background-size: 971px 168px, 1440px 569px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: calc(50% + 127px) 100%, 50% 0;
+    width: 100%;
+    padding: 142px 24px 48px 24px;
+}
+#timer-heading{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.81px;
+    letter-spacing: 6.14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 54px;
+}
+.timer-div{
+    margin: auto;
+    width: 100%;
+    max-width: 340px;
+    min-height: 92px;
+    margin-bottom: 259px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div2{
+    width: 70px;
+    height: 71px;
+    background-color: #191A23;
+    margin-bottom: 9px;
+    border-radius: 10px;
+}
+.div3{
+    width: 100%;
+    height: 66.27px;
+    background-color: #343650;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3 h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.08px;
+    text-align: center;
+    color: #FB5E84;
+}
+.line{
+    position: absolute;
+    width: 100%;
+    height: 0.47px;
+    top: 32.76px;
+    opacity: 25.3%;
+    background-color: #000000;
+}
+.oval1{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 30px;
+    left: -3px;
+    background-color: #191A23;
+    border-radius: 10px;
+}
+.oval2{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 30px;
+    right: -3px;
+    background-color: #191A23;
+    border-radius: 10px;
+}
+.desc{
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 9.26px;
+    letter-spacing: 2.96px;
+    text-align: center;
+    color: #8385A9;
+}
+.footer-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+@media only screen and (min-width: 1440px){
+    main{
+        background-image: url(images/pattern-hills.svg), url(images/bg-stars.svg);
+        background-size: 1539px 266px, 1440px 569px;
+        background-position: 50% calc(100% + 69px), 50% 0;
+        padding: 132px 0 72px 0;
+    }
+    #timer-heading{
+        font-size: 22px;
+        line-height: 29.11px;
+        letter-spacing: 7.5px;
+        margin-bottom: 104px;
+    }
+    .timer-div{
+        max-width: 688px;
+        margin-bottom: 252px;
+    }
+    .div2{
+        width: 148px;
+        height: 150px;
+        margin-bottom: 16px;
+    }
+    .div3{
+        height: 140px;
+    }
+    .div3 h1{
+        font-size: 80px;
+        letter-spacing: -2.4px;
+    }
+    .line{
+        height: 1px;
+        top: 70px;
+    }
+    .oval1{
+        width: 12px;
+        height: 12px;
+        top: 64px;
+        left: -6px;
+        border-radius: 20px;
+    }
+    .oval2{
+        width: 12px;
+        height: 12px;
+        top: 64px;
+        right: -6px;
+        border-radius: 20px;
+    }
+    .desc{
+        font-size: 14px;
+        line-height: 18.52px;
+        letter-spacing: 5.92px;
+    }
+}

@@ -105,7 +105,7 @@ main{
     gap: 32px;
 }
 
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1080px){
     main{
         background-image: url(images/pattern-hills.svg), url(images/bg-stars.svg);
         background-size: 1539px 266px, 1440px 569px;
